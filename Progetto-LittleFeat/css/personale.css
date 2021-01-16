@@ -1,0 +1,402 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{box-sizing:border-box;}
+
+html{
+	scroll-behavior:smooth;
+}
+
+body{
+	background-image:url('https://www.debaser.it/resize.aspx?path=/files/artists/dca_142088.jpg');
+	background-repeat:no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+
+a:hover{
+	color:white;
+}
+
+.container-fluid{
+	height:auto;
+}
+
+.menu{
+	text-align:center;
+	margin:0 auto;
+}
+
+.ripBanner{
+	margin-top:180px;
+}
+
+.ripText{
+	background-color: black;
+	color:white;
+	position:relative;
+	margin:0 auto;
+	font-size:30px;
+}
+
+.img-fluid{
+	max-width:100%;
+}
+
+.rip{
+	margin-top:50px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+
+.ripText{
+	font-family:'Rye', cursive;
+}
+
+.nav-item{
+	font-family:'Rye', cursive;
+	font-size:30px;
+}
+
+.bandTitle{
+	text-align:center;
+	background-color:#343A40;
+	font-family:'Rye', cursive;
+	font-size:50px;
+	color:white;
+}
+
+.carousel-caption{
+	background-color: rgba(0,0,0,0.5);
+}
+
+.discographyTitle{
+	text-align:center;
+	background-color:#343A40;
+	font-family:'Rye', cursive;
+	font-size:50px;
+	color:white;
+	margin-top:15px;
+}
+
+.videoTitle{
+	text-align:center;
+	background-color:#343A40;
+	font-family:'Rye', cursive;
+	font-size:50px;
+	color:white;
+	margin-top:15px;
+}
+
+.shopTitle{
+	text-align:center;
+	background-color:#343A40;
+	font-family:'Rye', cursive;
+	font-size:50px;
+	color:white;
+	margin-top:15px;
+}
+
+.deck2{
+	margin-top:10px;
+}
+
+.tourTitle{
+	text-align:center;
+	background-color:#343A40;
+	font-family:'Rye', cursive;
+	font-size:50px;
+	color:white;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+.foot{
+	width:100%;
+	background-color:#343A40;
+	margin-top:20px;
+	text-align:center;
+	color:white;
+}
+.newsletter{
+	margin-top:20px;
+}
+
+.contacts{
+	margin-top:20px;
+}
+
+.form-control{
+	margin-top:15px;
+}
+
+.submit{
+	margin-top:15px;
+}
+
+.socials{
+	margin-top:15px;
+}
+
+.fbLogo{
+	width:60px;
+	height:60px;
+}
+
+.TwLogo{
+	width:80px;
+	height:80px;
+	margin-left:15px;
+}
+
+.YtLogo{
+	width:80px;
+	height:80px;
+	margin-right:0px;
+}
+
+@media (min-width:1200px){
+	.menu{
+		width:960px;
+	}
+
+	.bandTitle{
+		width:960px;
+	}
+
+	.carousel{
+		width:990px;
+		text-align:center;
+		margin:0 auto;
+	}
+	.discographyTitle{
+		width:960px;
+	}
+	.videoTitle{
+		width:960px;
+	}
+
+	.shopTitle{
+		width:960px;
+	}
+
+	iframe{
+		width:960px;
+		height:480px;
+	}
+
+	.products{
+		width:960px;
+	}
+
+	.tourTitle{
+		width:960px;
+	}
+	.table{
+		width:960px;
+		margin:0 auto;
+	}
+
+	.albums{
+		width:990px;
+	}
+
+	.album{
+		width:960px;
+	}
+}
+
+@media (min-width:960px){
+	.ripText{
+		width:960px;
+	}
+}
+
+@media (min-width:360px){
+	.logo{
+		height:auto;
+		width:200px;
+		margin:0 auto;
+	}
+}
+
+
+@media (width:360px){
+	.bandTitle{
+		width:330px;
+	}
+	.discographyTitle{
+		width:330px;
+		padding-left:0;
+	}
+	.videoTitle{
+		width:330px;
+	}
+	.shopTitle{
+		width:330px;
+	}
+
+	iframe{
+		width:330px;
+		height:185.663px;
+	}
+	.tourTitle{
+		width:330px;
+	}
+	.table{
+		width:330px;
+		margin:0 auto;
+	}
+
+	.album{
+		width:300px;
+		margin-left:15px;
+	}
+
+	.cdShop{
+		margin-left:60px;
+	}
+}
+
+@media (width:375px){
+	.bandTitle{
+		width:345px;
+	}
+	.discographyTitle{
+		width:345px;
+	}
+	.videoTitle{
+		width:345px;
+	}
+	.shopTitle{
+		width:345px;
+	}
+	iframe{
+		width:345px;
+		height:194.067px;
+	}
+	.tourTitle{
+		width:345px;
+	}
+	.table{
+		width:345px;
+		margin:0 auto;
+	}
+	.cdShop{
+		margin-left:75px;
+	}
+	.carousel-control-prev{
+		margin-top:30px;
+	}
+	.carousel-control-next{
+		margin-top:30px;
+	}
+}
+
+@media (width:414px){
+	.bandTitle{
+		width:384px;
+	}
+	.discographyTitle{
+		width:384px;
+	}
+	.videoTitle{
+		width:384px;
+	}
+	.shopTitle{
+		width:384px;
+	}
+	iframe{
+		width:384px;
+		height:216px;
+	}
+	.tourTitle{
+		width:384px;
+	}
+	.table{
+		width:384px;
+		margin:0 auto;
+	}
+	.cdShop{
+		margin-left:95px;
+	}
+	.carousel-control-next{
+		margin-top:30px;
+	}
+}
+
+@media (width:768px){
+	.bandTitle{
+		width:738px;
+	}
+	.discographyTitle{
+		width:738px;
+	}
+	.videoTitle{
+		width:738px;
+	}
+	.shopTitle{
+		width:738px;
+	}
+	iframe{
+		width:738px;
+		height:415.133px;
+	}
+	.tourTitle{
+		width:738px;
+	}
+	.table{
+		width:738px;
+		margin:0 auto;
+	}
+	.cdShop{
+		margin-left:275px;
+	}
+	.carousel-control-prev{
+		margin-top:100px;
+	}
+	.carousel-control-next{
+		margin-top:100px;
+	}
+}
+
+@media (width:800px){
+	.bandTitle{
+		width:770px;
+	}
+
+	.carousel{
+		text-align:center;
+		margin:0 auto;
+		width:770px;
+	}
+	.discographyTitle{
+		width:770px;
+	}
+	.videoTitle{
+		width:770px;
+	}
+	.shopTitle{
+		width:770px;
+	}
+	iframe{
+		width:770px;
+		height:416.025px;
+	}
+	.tourTitle{
+		width:770px;
+	}
+	.table{
+		width:770px;
+		margin:0 auto;
+	}
+	.carousel-control-prev{
+		margin-top:100px;
+	}
+	.carousel-control-next{
+		margin-top:100px;
+	}
+}
